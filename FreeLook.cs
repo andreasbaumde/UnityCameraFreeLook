@@ -56,9 +56,6 @@ public class FreeLook : MonoBehaviour
         inputH = Input.GetAxis("Horizontal");
         inputV = Input.GetAxis("Vertical");
 
-        Debug.Log(inputH);
-        Debug.Log(inputV);
-
         Vector3 moveDirection = (transform.forward * inputV + inputH * transform.right).normalized;
 
         if(Input.GetKey(KeyCode.X))
