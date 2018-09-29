@@ -48,13 +48,13 @@ public class FreeLook : MonoBehaviour
 	
 	void Update()
     {
-        yaw += turnSpeedH * Input.GetAxis("Mouse X");
-        pitch -= turnSpeedV * Input.GetAxis("Mouse Y");
+        yaw += turnSpeedH * Input.GetAxisRaw("Mouse X");
+        pitch -= turnSpeedV * Input.GetAxisRaw("Mouse Y");
 
         transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
 
-        inputH = Input.GetAxis("Horizontal");
-        inputV = Input.GetAxis("Vertical");
+        inputH = Input.GetAxisRaw("Horizontal");
+        inputV = Input.GetAxisRaw("Vertical");
 
         Vector3 moveDirection = (transform.forward * inputV + inputH * transform.right).normalized;
 
