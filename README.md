@@ -1,13 +1,13 @@
-# UnityCameraFreeLook
-A script that can be attached to the main camera to rotate and move it in Game Mode (and Build) using simple input. Tested in Unity 2018.2.9f1.
+# Unity Camera FreeLook
+A script that can be attached to the main camera to rotate and move it in game mode (and build) using simple input.
 
-Controls:
+**Controls:**
 - Movement: Unity input axis (e.g. W-A-S-D, arrow keys or gamepad input axis)
 - Up: Unity input "Jump" (e.g. space)
 - Down: X
 - Rotate: Unity mouse axis
 
-The following settings can be made directly in the Editor in the component:
+**The following settings can be made directly in the Editor in the component:**
 - Movement speed (default: 10)
 - Turn speed (default 3)
 - Camera spawn (default current camera position)
