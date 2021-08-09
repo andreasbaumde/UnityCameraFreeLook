@@ -1,4 +1,4 @@
-# Unity Camera FreeLook
+# Unity Camera Free Look
 A script that can be attached to the main camera to rotate and move it in game mode (and build) using simple input.
 
 **Controls:**
